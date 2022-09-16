@@ -10,7 +10,7 @@ Portfolio
 
 ## Project Goal:
 
-Create Porfolio website with links to all social as well as portfolio examples, about me, skills etc. Set up lambda function to receive emails without server through node.js. Successfully deploy website through firebase.
+Create Porfolio single page application with links to all social as well as portfolio examples, about me, skills etc. Set up lambda function to receive emails without server through node.js. Successfully deploy website through firebase.
 
 # Languages, Libraries, Tools etc.:
 

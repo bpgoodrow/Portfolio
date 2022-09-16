@@ -6,6 +6,8 @@
 
 8:00: Initial commit and react-create-app project set up
 9:00: Create component diagram
+10:00 Begin Static Version of App with no styling
+11:00 Begin working though first few lessons of weekend work to learn about how to correctly use hooks instead of class components
 
 ## Component Diagram
 
