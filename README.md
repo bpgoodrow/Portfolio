@@ -11,6 +11,7 @@
 1:00: Continue learning about hooks and implementation
 2:00: Continue React Research
 3:00: Practice with using hooks by refactoring help-queue project
+4:00: Return to building static version of app
 
 ## Component Diagram
 
