@@ -34,4 +34,5 @@ Create Porfolio single page application with links to all social as well as port
 • Create animations for clicking each button to toggle each content area
 • Use spotify web api to embed player into music toggle to showcase my personal music as well
 • Make app Responsive for both mobile and desktop users
+• Use useEffect to perform side effect of updating document title based on which component is displayed
 
