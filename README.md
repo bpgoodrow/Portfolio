@@ -10,6 +10,7 @@
 11:00 Begin working though first few lessons of weekend work to learn about how to correctly use hooks instead of class components
 1:00: Continue learning about hooks and implementation
 2:00: Continue React Research
+3:00: Practice with using hooks by refactoring help-queue project
 
 ## Component Diagram
 
