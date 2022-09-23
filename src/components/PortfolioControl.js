@@ -1,22 +1,34 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route, Link, Outlet } from 'react-router-dom';
 import AboutMe from "./AboutMe";
 import Social from "./Social";
 import Portfolio from "./Portfolio";
 import Skills from "./Skills";
 import Contact from "./Contact";
+import './PortfolioControl.css'
 
 
 const PortfolioControl = () => {
   return (
-        <Routes>
-          <Route path="/about-me" element={<AboutMe /> } />
-          <Route path="/social" element={<Social /> } />
-          <Route path="/portfolio" element={<Portfolio />} />
-          <Route path="/skills" element={<Skills />} />
-          <Route path ="/contact" element={<Contact />} />
-        </Routes>
-  )
+    <React.Fragment>
+      <div className="portfolioControl">
+        <div className="menuOptions">
+          <AboutMe />
+        </div>
+        <div className="menuOptions">
+          <Social />
+        </div>
+        <div className="menuOptions">
+          <Portfolio />
+        </div>
+        <div className="menuOptions">
+          <Skills />
+        </div>
+        <div className="menuOptions">
+          <Contact />
+        </div>
+      </div>
+    </React.Fragment>
+    )
 }
 
 export default PortfolioControl;

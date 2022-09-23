@@ -38,3 +38,5 @@ _{A Portfolio Website built using React, Javascript, Css, Html, Firebase.}_
 
 - 8:00 Begin working on routing to each component
 - 9:00 Bug hunting routing issues
+- 10:00 still working on nested routes
+- 11:00 still can't get nested routes to work moving to styling until lunch
