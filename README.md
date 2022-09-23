@@ -37,3 +37,4 @@ _{A Portfolio Website built using React, Javascript, Css, Html, Firebase.}_
 ### 9/23/2022
 
 - 8:00 Begin working on routing to each component
+- 9:00 Bug hunting routing issues

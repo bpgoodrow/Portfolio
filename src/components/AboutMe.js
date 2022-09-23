@@ -1,9 +1,10 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function AboutMe() {
   return (
     <React.Fragment>
-      <h4>About Me</h4>
+      <Link to ="/about-me"><h4>About Me</h4></Link>
     </React.Fragment>
   )
 }
