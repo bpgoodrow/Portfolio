@@ -41,3 +41,4 @@ _{A Portfolio Website built using React, Javascript, Css, Html, Firebase.}_
 - 10:00 still working on nested routes
 - 11:00 still can't get nested routes to work moving to styling until lunch
 - 1:00 Return to debugging routing
+- 2:00 Fine tune routing to show homepage on start up as well as when home is clicked
