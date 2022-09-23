@@ -33,3 +33,7 @@ _{A Portfolio Website built using React, Javascript, Css, Html, Firebase.}_
 - 2:00: Continue React Research
 - 3:00: Practice with using hooks by refactoring help-queue project
 - 4:00: Return to building static version of app
+
+### 9/23/2022
+
+- 8:00 Begin working on routing to each component
