@@ -11,7 +11,7 @@ const PortfolioControl = () => {
     <React.Fragment>
       <div className="portfolioControl">
         <div className="menuOptions">
-          <AboutMe />
+        <h4><a href="/aboutMe">ABOUT ME</a></h4>
         </div>
         <div className="menuOptions">
           <Social />

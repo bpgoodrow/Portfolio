@@ -4,7 +4,7 @@ import React from "react";
 function Portfolio() {
   return(
     <React.Fragment>
-      <h4>PORTFOLIO</h4>
+      <h4><a href="/portfolio">PORTFOLIO</a></h4>
     </React.Fragment>
   )
 }

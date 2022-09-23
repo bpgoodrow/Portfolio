@@ -4,7 +4,7 @@ import React from "react";
 function Social () {
   return(
     <React.Fragment>
-      <h4>SOCIAL</h4>
+      <h4><a href="/social">SOCIAL</a></h4>
     </React.Fragment>
   )
 }
