@@ -1,4 +1,13 @@
 .headerStyle {
   text-align: center;
   border: solid black 0.5px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.headerStyle:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
 }

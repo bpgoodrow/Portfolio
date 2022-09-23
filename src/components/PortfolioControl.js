@@ -6,7 +6,6 @@ import Skills from "./Skills";
 import Contact from "./Contact";
 import './PortfolioControl.css'
 
-
 const PortfolioControl = () => {
   return (
     <React.Fragment>
