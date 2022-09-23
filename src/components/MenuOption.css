@@ -1,0 +1,17 @@
+.menuOptions {
+  flex: .2;
+  border: solid black .5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  height: 80vh;
+  color: black;
+  text-decoration: none;
+}
+
+.menuOptions:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
