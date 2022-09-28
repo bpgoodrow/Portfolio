@@ -19,8 +19,8 @@ const PortfolioControl = () => {
         <NavLink to="/skills" className="menuOptions">
           <MenuOption title="SKILLS" />
         </NavLink>
-        <NavLink to="/contact" className="menuOptions">
-          <MenuOption title="CONTACT" />
+        <NavLink to="/social" className="menuOptions">
+          <MenuOption title="SOCIAL" />
         </NavLink>
       </div>
     </React.Fragment>

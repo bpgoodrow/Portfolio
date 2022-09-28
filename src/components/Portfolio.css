@@ -1,0 +1,39 @@
+.portfolioHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: solid black .5px;
+  margin: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 60px;
+}
+
+.portfolioBody {
+  border: solid black .5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  min-height: 500px;
+  display: flex;
+}
+
+.portfolioHero {
+  border-right: solid black .5px;
+  flex: .6;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  padding-right: 100px;
+}
+
+.portfolioNumber {
+  border: solid black .5px;
+  background-color: white;
+  max-height: 30px;
+  min-width: 30px;
+  margin-top: 90px;
+  margin-left: -16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

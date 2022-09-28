@@ -44,4 +44,9 @@ _{A Portfolio Website built using React, Javascript, Css, Html, Firebase.}_
 - 2:00 Fine tune routing to show homepage on start up as well as when home is clicked
 - 3:00 Working on onClick functionality
 - 4:00 Refactor MenuOptions to reusable components
--
+
+### 9/27/2022
+- 10:30 Begin integrating firebase and continue styling
+
+### 9/28/2022
+- 12:45 Continue styling menuOption components
