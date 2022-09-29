@@ -2,11 +2,16 @@ import React from "react";
 import MenuOption from "./MenuOption";
 import './PortfolioControl.css'
 import { NavLink } from "react-router-dom";
+import { motion } from "framer-motion";
 
 const PortfolioControl = () => {
   return (
     <React.Fragment>
-      <div className="portfolioControl">
+      <motion.div className="portfolioControl"
+      initial={{height: 0}}
+      animate={{height: 1 }}
+      exit={{y: window.innerHeight, transition: {duration: 0.5}}}
+      >
       <NavLink to="/aboutMe" className="menuOptions">
         <MenuOption title="ABOUT ME" />
       </NavLink>
@@ -22,7 +27,7 @@ const PortfolioControl = () => {
         <NavLink to="/social" className="menuOptions">
           <MenuOption title="SOCIAL" />
         </NavLink>
-      </div>
+      </motion.div>
     </React.Fragment>
     )
 }

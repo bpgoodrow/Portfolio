@@ -1,11 +1,18 @@
 import React from "react";
 import './MenuOption.css';
+import { motion } from "framer-motion";
 
 const MenuOption = ({ title }) => {
   return(
+    <motion.div
+        initial={{height: 0}}
+        animate={{height: 1}}
+        exit={{y: window.innerHeight, transition: {duration: .5}}}
+      >
     <div className="menuOption">
-      <div className="menuOptionTitle">{title}</div>
+      {title}
     </div>
+    </motion.div>
   )
 }
 
