@@ -50,3 +50,9 @@ _{A Portfolio Website built using React, Javascript, Css, Html, Firebase.}_
 
 ### 9/28/2022
 - 12:45 Continue styling menuOption components
+
+### 9/29/2022
+- 7:45 incorporate framer motion library for transitions
+
+### 9/30/2022
+- 8:00 Continue web design and styling
