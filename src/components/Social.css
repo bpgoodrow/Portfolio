@@ -23,16 +23,20 @@
   border-right: solid black .5px;
   flex: .6;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+
   padding: 20px;
   background: white;
 }
 
-.socialHeroLinkGithub {
-  width: 100px;
+.socialHeroLinkContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 160px;
 }
 
-.socialHeroLinkGithub {
+img {
   width: 50px;
   height: auto;
 }

@@ -58,3 +58,4 @@ _{A Portfolio Website built using React, Javascript, Css, Html, Firebase.}_
 - 8:00 Continue web design and styling
 - 9:00 Continue web design and styling
 - 10:00 Work on social media links
+- 11:00 move to contact styling

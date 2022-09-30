@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 function Contact() {
   return (
     <React.Fragment>
-       <motion.div
+       <motion.div className="body"
         initial={{height: 0}}
         animate={{height: 1}}
         exit={{y: window.innerHeight, transition: {duration: .5}}}
