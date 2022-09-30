@@ -1,16 +1,18 @@
 import React from "react";
 import './Contact.css';
 import { motion } from "framer-motion";
+import { NavLink } from "react-router-dom";
 
 function Contact() {
   return (
     <React.Fragment>
-      <div className="body">
+      
        <motion.div
         initial={{height: 0}}
         animate={{height: 1}}
         exit={{y: window.innerHeight, transition: {duration: .5}}}
       >
+        <div className="contactWrapper">
       <div className="contactHeader">
         <div>
           C
@@ -57,8 +59,15 @@ function Contact() {
           2
         </div>
       </div>
-      </motion.div>
+      <div className="footerLinks">
+            <NavLink to="/aboutme" className="footerLinkAboutMe">1. ABOUT ME</NavLink>
+            <NavLink to="/contact" className="footerLinkContact">2. CONTACT</NavLink>
+            <NavLink to="/portfolio" className="footerLinkPortfolio">3. PORTFOLIO</NavLink>
+            <NavLink to="/skills" className="footerLinkSkills">4. SKILLS</NavLink>
+            <NavLink to="/social" className="footerLinkSocial">5. SOCIAL</NavLink>
+          </div>
       </div>
+      </motion.div>
     </React.Fragment>
   )
 }

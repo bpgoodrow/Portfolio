@@ -21,7 +21,7 @@
 
 .contactHero {
   border-right: solid black .5px;
-  flex: .6;
+  flex: .8;
   display: flex;
   flex-wrap: wrap;
   padding: 20px;

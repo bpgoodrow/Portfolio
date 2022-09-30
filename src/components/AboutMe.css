@@ -21,7 +21,7 @@
 
 .aboutMeHero {
   border-right: solid black .5px;
-  flex: .6;
+  flex: .8;
   display: flex;
   flex-direction: column;
   background: white;
@@ -66,4 +66,83 @@
   margin-right: 200px;
   margin-bottom: 200px;
   background: white;
+}
+
+.footerLinks {
+  display: flex;
+  border-left: solid black .5px;
+  border-right: solid black .5px;
+  border-bottom: solid black .5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.footerLinkAboutMe {
+  border-right: solid black .5px;
+  flex: .2;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+}
+
+.footerLinkAboutMe:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.footerLinkContact {
+  border-right: solid black .5px;
+  flex: .2;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+}
+
+.footerLinkContact:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.footerLinkPortfolio {
+  border-right: solid black .5px;
+  flex: .2;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+}
+
+.footerLinkPortfolio:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.footerLinkSkills {
+  border-right: solid black .5px;
+  flex: .2;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+}
+
+.footerLinkSkills:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.footerLinkSocial {
+  border-right: solid black .5px;
+  flex: .2;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+}
+
+.footerLinkSocial:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
 }

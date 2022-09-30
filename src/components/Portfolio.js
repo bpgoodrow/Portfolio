@@ -1,6 +1,7 @@
 import React from "react";
 import './Portfolio.css';
 import { motion } from "framer-motion";
+import { NavLink } from "react-router-dom";
 
 function Portfolio() {
   return(
@@ -47,6 +48,13 @@ function Portfolio() {
           3
         </div>
       </div>
+      <div className="footerLinks">
+            <NavLink to="/aboutme" className="footerLinkAboutMe">1. ABOUT ME</NavLink>
+            <NavLink to="/contact" className="footerLinkContact">2. CONTACT</NavLink>
+            <NavLink to="/portfolio" className="footerLinkPortfolio">3. PORTFOLIO</NavLink>
+            <NavLink to="/skills" className="footerLinkSkills">4. SKILLS</NavLink>
+            <NavLink to="/social" className="footerLinkSocial">5. SOCIAL</NavLink>
+          </div>
       </motion.div>
     </React.Fragment>
   )
