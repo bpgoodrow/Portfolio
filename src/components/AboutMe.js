@@ -1,9 +1,15 @@
 import React from "react";
 import './AboutMe.css';
+import { motion } from "framer-motion";
 
 function AboutMe() {
   return (
     <React.Fragment>
+       <motion.div
+        initial={{height: 0}}
+        animate={{height: 1}}
+        exit={{y: window.innerHeight, transition: {duration: .5}}}
+      >
         <div className="aboutMeHeader">
           <div>
             A
@@ -29,7 +35,12 @@ function AboutMe() {
         </div>
         <div className="aboutMeBody">
           <div className="aboutMeHero">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            <div className="aboutMeHeroTop">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </div>
+            <div className="aboutMeHeroBottom">
+              1. ABOUT ME
+            </div>
           </div>
           <div className="aboutMeNumber">
             1
@@ -53,6 +64,7 @@ function AboutMe() {
             </div>
           </div>
         </div>
+      </motion.div>
     </React.Fragment>
   )
 }

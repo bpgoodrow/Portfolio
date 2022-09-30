@@ -1,10 +1,15 @@
 import React from "react";
 import './Portfolio.css';
-
+import { motion } from "framer-motion";
 
 function Portfolio() {
   return(
     <React.Fragment>
+       <motion.div
+        initial={{height: 0}}
+        animate={{height: 1}}
+        exit={{y: window.innerHeight, transition: {duration: .5}}}
+      >
       <div className="portfolioHeader">
         <div>
           P
@@ -42,6 +47,7 @@ function Portfolio() {
           3
         </div>
       </div>
+      </motion.div>
     </React.Fragment>
   )
 }

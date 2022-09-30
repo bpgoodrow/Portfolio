@@ -7,6 +7,7 @@
   padding-left: 20px;
   padding-right: 20px;
   height: 60px;
+  background: white;
 }
 
 .aboutMeBody {
@@ -15,15 +16,28 @@
   margin-right: 10px;
   min-height: 500px;
   display: flex;
+  background: white;
 }
 
 .aboutMeHero {
   border-right: solid black .5px;
   flex: .6;
   display: flex;
+  flex-direction: column;
+  background: white;
+  justify-content: space-between;
+}
+
+.aboutMeHeroTop {
+  display: flex;
   flex-wrap: wrap;
   padding: 20px;
   padding-right: 100px;
+}
+
+.aboutMeHeroBottom {
+  border-top: solid black .5px;
+  padding-left: 20px;
 }
 
 .aboutMeNumber {
@@ -36,6 +50,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background: white;
 }
 
 .aboutMeSideBar{
@@ -43,10 +58,12 @@
   transform: rotate(-45deg);
   transform-origin: top right;
   border-top: 0.5px solid black;
+  
 }
 
 .aboutMeSideBarNested {
   word-wrap: break-word;
   margin-right: 200px;
   margin-bottom: 200px;
+  background: white;
 }

@@ -57,3 +57,4 @@ _{A Portfolio Website built using React, Javascript, Css, Html, Firebase.}_
 ### 9/30/2022
 - 8:00 Continue web design and styling
 - 9:00 Continue web design and styling
+- 10:00 Work on social media links

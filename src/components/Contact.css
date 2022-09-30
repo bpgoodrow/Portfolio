@@ -7,6 +7,7 @@
   padding-left: 20px;
   padding-right: 20px;
   height: 60px;
+  background: white;
 }
 
 .contactBody {
@@ -15,6 +16,7 @@
   margin-right: 10px;
   min-height: 500px;
   display: flex;
+  background: white;
 }
 
 .contactHero {
@@ -24,6 +26,7 @@
   flex-wrap: wrap;
   padding: 20px;
   padding-right: 100px;
+  background: white;
 }
 
 .contactNumber {
@@ -36,4 +39,5 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background: white;
 }
