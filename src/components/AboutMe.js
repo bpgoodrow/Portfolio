@@ -35,7 +35,7 @@ function AboutMe() {
             1
           </div>
           <div className="aboutMeSideBar">
-            <p>
+            <div className="aboutMeSideBarNested">
               width: calc(1.414 * 200px);
               transform: rotate(45deg);
               transform-origin: top left;
@@ -50,7 +50,7 @@ function AboutMe() {
               border-top: 1px solid blue;
               position: absolute;
               top: 
-            </p>
+            </div>
           </div>
         </div>
     </React.Fragment>

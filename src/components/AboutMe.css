@@ -39,13 +39,14 @@
 }
 
 .aboutMeSideBar{
-  width: auto;
   flex: .4;
   transform: rotate(-45deg);
   transform-origin: top right;
   border-top: 0.5px solid black;
 }
 
-.aboutMeSideBar > p {
-  padding-right: 100px;
+.aboutMeSideBarNested {
+  word-wrap: break-word;
+  margin-right: 200px;
+  margin-bottom: 200px;
 }
