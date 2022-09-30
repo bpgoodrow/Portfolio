@@ -49,20 +49,6 @@ function AboutMe() {
             </div>
             <div className="aboutMeSideBar">
               <div className="aboutMeSideBarNested">
-                width: calc(1.414 * 200px);
-                transform: rotate(45deg);
-                transform-origin: top left;
-                border-top: 1px solid blue;
-                position: absolute;
-                top: -2px;
-                left: -1px;
-                box-sizing: border-box;
-                width: calc(1.414 * 200px);
-                transform: rotate(45deg);
-                transform-origin: top left;
-                border-top: 1px solid blue;
-                position: absolute;
-                top: 
               </div>
             </div>
           </div>

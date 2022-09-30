@@ -65,7 +65,7 @@ function Social () {
                 <img
                   alt="Instagram logo"
                   srcset="
-                  ./instagram.png
+                  ./instalogo.png
                   "
                 />
               </a>

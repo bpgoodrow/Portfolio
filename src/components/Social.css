@@ -21,7 +21,7 @@
 
 .socialHero {
   border-right: solid black .5px;
-  flex: .6;
+  flex: .9;
   display: flex;
   flex-direction: column;
 
