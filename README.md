@@ -59,3 +59,5 @@ _{A Portfolio Website built using React, Javascript, Css, Html, Firebase.}_
 - 9:00 Continue web design and styling
 - 10:00 Work on social media links
 - 11:00 move to contact styling
+- 12:00 begin working on animating text
+- 1:00 Add additional footer navlinks

@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 import './AboutMe.css';
-import { motion } from "framer-motion";
+import { useAnimation, motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
 
 function AboutMe() {
+
   return (
     <React.Fragment>
        <motion.div

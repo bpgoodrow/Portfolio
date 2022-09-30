@@ -5,7 +5,8 @@ import { motion } from "framer-motion";
 function Contact() {
   return (
     <React.Fragment>
-       <motion.div className="body"
+      <div className="body">
+       <motion.div
         initial={{height: 0}}
         animate={{height: 1}}
         exit={{y: window.innerHeight, transition: {duration: .5}}}
@@ -35,13 +36,29 @@ function Contact() {
       </div>
       <div className="contactBody">
         <div className="contactHero">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        <form>
+          <label>
+            Name
+            <input type="text" name="name" />
+          </label>
+          <label>
+            Email Address
+            <input type="text" name="name" />
+          </label>
+          <label>
+            Message
+            <input type="text" name="name" />
+          </label>
+          <input type="submit" value="Submit" />
+        </form>
+
         </div>
         <div className="contactNumber">
           2
         </div>
       </div>
       </motion.div>
+      </div>
     </React.Fragment>
   )
 }
