@@ -63,3 +63,6 @@ _{A Portfolio Website built using React, Javascript, Css, Html, Firebase.}_
 - 1:00 Add additional footer navlinks
 - 2:00 Work on sidebar styling
 - 3:00 Continue sidebar styling
+
+## 10/02/2022
+- 5:00 Finish animated routes

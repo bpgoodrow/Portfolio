@@ -8,9 +8,10 @@ function Contact() {
     <React.Fragment>
       
        <motion.div
-        initial={{height: 0}}
-        animate={{height: 1}}
-        exit={{y: window.innerHeight, transition: {duration: .5}}}
+        initial={{ y: window.innerHeight, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        // exit={{ y: window.innerHeight, opacity: 0 }}
+        transition={{ duration: .4 }}
       >
         <div className="contactWrapper">
       <div className="contactHeader">

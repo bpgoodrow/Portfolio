@@ -7,9 +7,9 @@ function Social () {
   return(
     <React.Fragment>
       <motion.div
-        initial={{height: 0}}
-        animate={{height: 1}}
-        exit={{y: window.innerHeight, transition: {duration: .5}}}
+        initial={{ y: window.innerHeight, opacity: 0 }}
+        animate={{ y: 1, opacity: 1 }}
+        transition={{ duration: .4 }}
       >
       <div className="socialHeader">
         <div>
@@ -83,7 +83,10 @@ function Social () {
         </div>
 
         <div className="socialNumber">
-          5
+          <div className="socialNumberChild">
+            5 
+          </div>
+          
         </div>
       </div>
       <div className="footerLinks">

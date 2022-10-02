@@ -5,10 +5,11 @@ import { motion } from "framer-motion";
 const MenuOption = ({ title }) => {
   return(
     <motion.div
-        initial={{height: 0}}
-        animate={{height: -1}}
-        exit={{y: window.innerHeight, transition: {duration: .5}}}
-      >
+    // initial={{ y: window.innerHeight, opacity: 0 }}
+    //     animate={{ y: 1, opacity: 1 }}
+    //     exit={{ y: window.innerHeight, opacity: 1 }}
+    //     transition={{ duration: 1 }}
+    >
     <div className="menuOption">
       {title}
     </div>

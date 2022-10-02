@@ -8,9 +8,9 @@ const PortfolioControl = () => {
   return (
     <React.Fragment>
       <motion.div className="portfolioControl"
-      initial={{height: 0}}
-      animate={{height: 1 }}
-      exit={{y: window.innerHeight, transition: {duration: 0.5}}}
+      initial={{ y: window.innerHeight, opacity: 0 }}
+      animate={{ y: 0, opacity: 1 }}
+      transition={{ duration: .4 }}
       >
       <NavLink to="/aboutMe" className="menuOptions">
         <MenuOption title="ABOUT ME" />
