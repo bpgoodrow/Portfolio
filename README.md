@@ -70,3 +70,4 @@ _{A Portfolio Website built using React, Javascript, Css, Html, Firebase.}_
 
 ## 10/03/2022
 - 2:00 Animating headers
+- 3:00 Write About Me and Contact

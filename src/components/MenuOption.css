@@ -1,6 +1,6 @@
 .menuOptions {
   flex: .2;
-  font-size: larger;
+  font-size: 2em;
   
   border: solid black .5px;
   display: flex;

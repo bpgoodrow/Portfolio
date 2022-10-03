@@ -53,15 +53,17 @@ const Contact = () => {
           </div>
         <div className="contactBody">
           <div className="contactHero">
-          <form ref={form} onSubmit={sendEmail}>
-            <label>Name</label>
-            <input type="text" name="user_name" />
-            <label>Email</label>
-            <input type="email" name="user_email" />
-            <label>Message</label>
-            <textarea name="message" />
-            <input type="submit" value="Send" />
-          </form>
+            <div className='contactHeroHeader'>
+              Drop me a line, I'm always happy to chat
+            </div>
+            <div className='contactHeroForm'>
+              <form ref={form} onSubmit={sendEmail}>
+                <input type="text" name="user_name" placeholder='Name'/>
+                <input type="email" name="user_email" placeholder='Email Address'/>
+                <textarea name="message" placeholder='Message'/>
+                <input type="submit" value="Submit" />
+              </form>
+            </div>
 
         </div>
         <div className="contactNumber">

@@ -40,8 +40,15 @@ function AboutMe() {
           </div>
           <div className="aboutMeBody">
             <div className="aboutMeHero">
-              <div className="aboutMeHeroTop">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              <div className="aboutMeHeroHeader">
+                <h1>Hey, I'm Ben</h1>
+              </div>
+              <div className="aboutMeHeroBody">
+                I'm a software developer currently residing in Portland, OR with my partner and our two fur babies.
+                <br/>
+                I love finding the intersection of design and functionality, writing code to make things look great as well as execute efficiently.
+                <br/>
+                Outside of development I enjoy playing music, spending time outdoors, and pursuing my passion for baking.
               </div>
             </div>
             <div className="aboutMeNumber">

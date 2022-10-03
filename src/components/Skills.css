@@ -8,6 +8,7 @@
   padding-right: 20px;
   height: 60px;
   background: white;
+  overflow: hidden;
 }
 
 .skillsBody {
@@ -27,6 +28,43 @@
   padding: 20px;
   padding-right: 100px;
   background: white;
+  overflow: hidden;
+}
+
+.skillsHeader > div:nth-child(1){
+  position: relative;
+  animation: animate .5s;
+  animation-fill-mode: backwards;
+}
+
+.skillsHeader > div:nth-child(2){
+  position: relative;
+  animation: animate 1s;
+  animation-fill-mode: backwards;
+}
+
+.skillsHeader > div:nth-child(3){
+  position: relative;
+  animation: animate 1.5s;
+  animation-fill-mode: backwards;
+}
+
+.skillsHeader > div:nth-child(4){
+  position: relative;
+  animation: animate 2s;
+  animation-fill-mode: backwards;
+}
+
+.skillsHeader > div:nth-child(5){
+  position: relative;
+  animation: animate 2.5s;
+  animation-fill-mode: backwards;
+}
+
+.skillsHeader > div:nth-child(6){
+  position: relative;
+  animation: animate 3s;
+  animation-fill-mode: backwards;
 }
 
 @keyframes animate{
