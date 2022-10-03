@@ -28,40 +28,40 @@ const Contact = () => {
         transition={{ duration: .4 }}
       >
         <div className="contactWrapper">
-      <div className="contactHeader">
-        <div>
-          C
-        </div>
-        <div>
-          O
-        </div>
-        <div>
-          N
-        </div>
-        <div>
-          T
-        </div>
-        <div>
-          A
-        </div>
-        <div>
-          C
-        </div>
-        <div>
-          T
-        </div>
-      </div>
-      <div className="contactBody">
-        <div className="contactHero">
-        <form ref={form} onSubmit={sendEmail}>
-          <label>Name</label>
-          <input type="text" name="user_name" />
-          <label>Email</label>
-          <input type="email" name="user_email" />
-          <label>Message</label>
-          <textarea name="message" />
-          <input type="submit" value="Send" />
-        </form>
+          <div className="contactHeader">
+            <div>
+              C
+            </div>
+            <div>
+              O
+            </div>
+            <div>
+              N
+            </div>
+            <div>
+              T
+            </div>
+            <div>
+              A
+            </div>
+            <div>
+              C
+            </div>
+            <div>
+              T
+            </div>
+          </div>
+        <div className="contactBody">
+          <div className="contactHero">
+          <form ref={form} onSubmit={sendEmail}>
+            <label>Name</label>
+            <input type="text" name="user_name" />
+            <label>Email</label>
+            <input type="email" name="user_email" />
+            <label>Message</label>
+            <textarea name="message" />
+            <input type="submit" value="Send" />
+          </form>
 
         </div>
         <div className="contactNumber">

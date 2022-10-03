@@ -1,5 +1,7 @@
 .menuOptions {
   flex: .2;
+  font-size: larger;
+  
   border: solid black .5px;
   display: flex;
   justify-content: center;
@@ -9,10 +11,12 @@
   color: black;
   text-decoration: none;
   background: white;
+  transition: .3s;
 }
 
 .menuOptions:hover {
   background-color: black;
   color: white;
   cursor: pointer;
+  filter: drop-shadow(2px 2px 2px grey);
 }

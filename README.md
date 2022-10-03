@@ -67,3 +67,6 @@ _{A Portfolio Website built using React, Javascript, Css, Html, Firebase.}_
 ## 10/02/2022
 - 5:00 Finish animated routes
 - 9:00 Incorporate send email function with EmailJs
+
+## 10/03/2022
+- 2:00 Animating headers

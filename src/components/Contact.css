@@ -8,6 +8,58 @@
   padding-right: 20px;
   height: 60px;
   background: white;
+  overflow: hidden;
+}
+
+.contactHeader > div:nth-child(1) {
+  position: relative;
+  animation: animate .5s;
+  animation-fill-mode: backwards;
+}
+
+.contactHeader > div:nth-child(2) {
+  position: relative;
+  animation: animate 1s;
+  animation-fill-mode: backwards;
+}
+
+.contactHeader > div:nth-child(3) {
+  position: relative;
+  animation: animate 1.5s;
+  animation-fill-mode: backwards;
+}
+
+.contactHeader > div:nth-child(4) {
+  position: relative;
+  animation: animate 2s;
+  animation-fill-mode: backwards;
+}
+
+.contactHeader > div:nth-child(5) {
+  position: relative;
+  animation: animate 2.5s;
+  animation-fill-mode: backwards;
+}
+
+.contactHeader > div:nth-child(6) {
+  position: relative;
+  animation: animate 2.5s;
+  animation-fill-mode: backwards;
+}
+
+.contactHeader > div:nth-child(7) {
+  position: relative;
+  animation: animate 2.5s;
+  animation-fill-mode: backwards;
+}
+
+@keyframes animate{
+  0%{
+    bottom: -100px;
+  }
+  100%{
+    bottom: 0;
+  }
 }
 
 .contactBody {

@@ -10,6 +10,15 @@
   background: white;
 }
 
+@keyframes animate{
+  0%{
+    bottom: -100px;
+  }
+  100%{
+    bottom: 0;
+  }
+}
+
 .portfolioBody {
   border: solid black .5px;
   margin-left: 10px;

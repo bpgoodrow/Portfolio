@@ -29,6 +29,15 @@
   background: white;
 }
 
+@keyframes animate{
+  0%{
+    bottom: -100px;
+  }
+  100%{
+    bottom: 0;
+  }
+}
+
 .skillsNumber {
   display: flex;
   align-items: flex-end;
