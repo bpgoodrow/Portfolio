@@ -58,10 +58,18 @@ const Contact = () => {
             </div>
             <div className='contactHeroForm'>
               <form ref={form} onSubmit={sendEmail}>
-                <input type="text" name="user_name" placeholder='Name'/>
-                <input type="email" name="user_email" placeholder='Email Address'/>
-                <textarea name="message" placeholder='Message'/>
-                <input type="submit" value="Submit" />
+                <div className='contactHeroFormLine1'>
+                  <input type="text" name="user_name" placeholder='Name'/>
+                  <input type="email" name="user_email" placeholder='Email Address'/>
+                </div>
+                <div className='contactHeroFormLine2'>
+                  <div className='contactHeroFormLine2Child'>
+                    <textarea name="message" placeholder='Message'/>
+                  </div>
+                </div>
+                <div className='contactHeroFormButton'>
+                  <input type="submit" value="Submit" />
+                </div>
               </form>
             </div>
 
