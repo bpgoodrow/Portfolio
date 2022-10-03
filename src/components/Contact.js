@@ -1,16 +1,30 @@
-import React from "react";
+import React, { useRef } from 'react';
 import './Contact.css';
 import { motion } from "framer-motion";
 import { NavLink } from "react-router-dom";
+import emailjs from '@emailjs/browser';
 
-function Contact() {
+const Contact = () => {
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+    emailjs.sendForm('service_gf7t3i6', 'template_za24svi', form.current, 'tPq88Q7x8tb9yuPwd')
+      .then((result) => {
+          console.log(result.text);
+          console.log("message sent")
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+
   return (
     <React.Fragment>
       
        <motion.div
         initial={{ y: window.innerHeight, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
-        // exit={{ y: window.innerHeight, opacity: 0 }}
         transition={{ duration: .4 }}
       >
         <div className="contactWrapper">
@@ -39,20 +53,14 @@ function Contact() {
       </div>
       <div className="contactBody">
         <div className="contactHero">
-        <form>
-          <label>
-            Name
-            <input type="text" name="name" />
-          </label>
-          <label>
-            Email Address
-            <input type="text" name="name" />
-          </label>
-          <label>
-            Message
-            <input type="text" name="name" />
-          </label>
-          <input type="submit" value="Submit" />
+        <form ref={form} onSubmit={sendEmail}>
+          <label>Name</label>
+          <input type="text" name="user_name" />
+          <label>Email</label>
+          <input type="email" name="user_email" />
+          <label>Message</label>
+          <textarea name="message" />
+          <input type="submit" value="Send" />
         </form>
 
         </div>

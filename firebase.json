@@ -6,5 +6,8 @@
       "**/.*",
       "**/node_modules/**"
     ]
+  },
+  "extensions": {
+    "firestore-send-email": "firebase/firestore-send-email@0.1.19"
   }
 }
