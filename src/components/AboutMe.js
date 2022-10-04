@@ -43,11 +43,18 @@ function AboutMe() {
                 <h1>Hey, I'm Ben</h1>
               </div>
               <div className="aboutMeHeroBody">
-                I'm a software developer currently residing in Portland, OR with my partner and our two fur babies.
-                <br/>
-                I love finding the intersection of design and functionality, writing code to make things look great as well as execute efficiently.
-                <br/>
-                Outside of development I enjoy playing music, spending time outdoors, and pursuing my passion for baking.
+                <div>
+                  I'm a software developer currently residing in Portland, OR with my partner and our animals.
+                </div>
+                <div>
+                  I love finding the intersection of design and functionality, writing code to make things look great as well as execute efficiently.
+                </div>
+                <div>
+                  I'm always interested in new opportunities, whether fulltime or freelance.
+                </div>
+                <div>
+                  Outside of development I enjoy playing music, spending time outdoors, and pursuing my passion for baking.
+                </div>
               </div>
             </div>
             <div className="aboutMeNumber">

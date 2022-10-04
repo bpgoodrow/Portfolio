@@ -1,3 +1,4 @@
 .portfolioControl {
   display: flex;
+  flex-wrap: wrap;
 }

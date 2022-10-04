@@ -7,20 +7,20 @@ const FooterNav = () => {
     <div className="footerNav">
       <NavLink to="/aboutme" className="footerNavAboutMe">
         <div>
-          1 // ABOUT ME
+          // ABOUT ME
         </div>
       </NavLink>
       <NavLink to="/contact" className="footerNavContact">
-        2 // CONTACT
+        // CONTACT
       </NavLink>
       <NavLink to="/portfolio" className="footerNavPortfolio">
-        3 // PORTFOLIO
+        // PORTFOLIO
       </NavLink>
       <NavLink to="/skills" className="footerNavSkills">
-        4 // SKILLS
+        // SKILLS
       </NavLink>
       <NavLink to="/social" className="footerNavSocial">
-        5 // SOCIAL
+        // SOCIAL
       </NavLink>
     </div>
   )
