@@ -77,3 +77,4 @@ _{A Portfolio Website built using React, Javascript, Css, Html, Firebase.}_
 ## 10/04/2022
 - 8:00 Refacter footer nav
 - 9:00 Add reply to contact form
+- 10:00 work on portfolio component

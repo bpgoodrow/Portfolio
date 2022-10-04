@@ -7,8 +7,7 @@ import FooterNav from './FooterNav';
 
 const Contact = () => {
 
-  const [buttonText, setButtonText] = useState('');
-
+  const [replyText, setReplyText] = useState('');
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -17,16 +16,13 @@ const Contact = () => {
       .then((result) => {
           console.log(result.text);
           console.log("message sent")
+          setReplyText('Message Sent!')
           
       }, (error) => {
           console.log(error.text);
       });
     e.target.reset();
   };
-
-  function handleClick() {
-    setButtonText('Message Sent!')
-  }
 
   return (
     <React.Fragment>
@@ -78,10 +74,10 @@ const Contact = () => {
                 </div>
                 <div className='contactHeroFormButtonReplyContainer'>
                   <div className='contactHeroFormButton'>
-                    <button class="button" onClick={handleClick}><span>Submit </span></button>
+                    <button class="button"><span>Submit </span></button>
                   </div>
                   <div className='contactHeroFormReply'>
-                    {buttonText}
+                    {replyText}
                   </div>
                 </div>
               </form>
