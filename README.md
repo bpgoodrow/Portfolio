@@ -78,3 +78,4 @@ _{A Portfolio Website built using React, Javascript, Css, Html, Firebase.}_
 - 8:00 Refacter footer nav
 - 9:00 Add reply to contact form
 - 10:00 work on portfolio component
+- 11:00 responsive images in Portfolio
