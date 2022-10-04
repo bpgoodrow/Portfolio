@@ -82,10 +82,15 @@
   margin-top: 160px;
 }
 
-img {
+.socialHeroLinkContainer > div > a > img {
   width: 50px;
   height: auto;
 }
+
+/* img {
+  width: 50px;
+  height: auto;
+} */
 
 .socialNumber {
   display: flex;

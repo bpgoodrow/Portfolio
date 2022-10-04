@@ -38,10 +38,8 @@ function Social () {
           <div className="socialHeroText">
             Check out my work or give me a follow
           </div>
-
-          <div className="socialHeroParentLinkContainer">
-            <div className="socialHeroLinkContainer">
-            <div className="socialHeroLinkGitHub">
+          <div className="socialHeroLinkContainer">
+            <div>
               <a href="https://github.com/bpgoodrow/" target="_blank">
                 <img
                   alt="github logo"
@@ -51,7 +49,7 @@ function Social () {
                 />
               </a>
             </div>
-            <div className="socialHeroLinkLinkedIn">
+            <div>
               <a href="https://www.linkedin.com/in/bengoodrow/" target="_blank">
                 <img
                   alt="Linkedin logo"
@@ -61,7 +59,7 @@ function Social () {
                 />
               </a>
             </div>
-            <div className="socialHeroLinkInstagram">
+            <div>
               <a href="https://www.instagram.com/bpgoodrow/" target="_blank">
                 <img
                   alt="Instagram logo"
@@ -71,14 +69,15 @@ function Social () {
                 />
               </a>
             </div>
-            <div className="socialHeroLinkFacebook">
-              <img
-                alt="Facebook logo"
-                srcset="
-                ./facebook.png
-                "
-                />
-            </div>
+            <div>
+              <a href="https://www.facebook.com/" target="_blank">
+                <img
+                  alt="Facebook logo"
+                  srcset="
+                  ./facebook.png
+                  "
+                  />
+              </a>
             </div>
           </div>
         </div>
