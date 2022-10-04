@@ -1,10 +1,13 @@
-import React, { useRef } from 'react';
+import React, { useState, useRef } from 'react';
 import './Contact.css';
 import { motion } from "framer-motion";
 import { NavLink } from "react-router-dom";
 import emailjs from '@emailjs/browser';
+import FooterNav from './FooterNav';
 
 const Contact = () => {
+
+  const [buttonText, setButtonText] = useState('');
 
   const form = useRef();
 
@@ -20,6 +23,10 @@ const Contact = () => {
       });
     e.target.reset();
   };
+
+  function handleClick() {
+    setButtonText('Message Sent!')
+  }
 
   return (
     <React.Fragment>
@@ -69,8 +76,13 @@ const Contact = () => {
                 <div className='contactHeroFormMessage'>
                     <textarea name="message" placeholder='Message'/>
                 </div>
-                <div className='contactHeroFormButton'>
-                <button class="button"><span>Submit </span></button>
+                <div className='contactHeroFormButtonReplyContainer'>
+                  <div className='contactHeroFormButton'>
+                    <button class="button" onClick={handleClick}><span>Submit </span></button>
+                  </div>
+                  <div className='contactHeroFormReply'>
+                    {buttonText}
+                  </div>
                 </div>
               </form>
             </div>
@@ -80,13 +92,7 @@ const Contact = () => {
           2
         </div>
       </div>
-      <div className="footerLinks">
-            <NavLink to="/aboutme" className="footerLinkAboutMe">1. ABOUT ME</NavLink>
-            <NavLink to="/contact" className="footerLinkContact">2. CONTACT</NavLink>
-            <NavLink to="/portfolio" className="footerLinkPortfolio">3. PORTFOLIO</NavLink>
-            <NavLink to="/skills" className="footerLinkSkills">4. SKILLS</NavLink>
-            <NavLink to="/social" className="footerLinkSocial">5. SOCIAL</NavLink>
-          </div>
+      <FooterNav/>
       </div>
       </motion.div>
     </React.Fragment>

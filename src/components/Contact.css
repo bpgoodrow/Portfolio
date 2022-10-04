@@ -124,6 +124,12 @@
  width: 100%;
 }
 
+.contactHeroFormButtonReplyContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .contactHeroFormButton > button{
   border-radius: 4px;
   background-color: #000;
