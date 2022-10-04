@@ -11,9 +11,13 @@
 .footerNavAboutMe {
   border-right: solid black .5px;
   flex: .2;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2px;
   color: black;
   text-decoration: none;
+  
 }
 
 .footerNavAboutMe:hover {
@@ -25,7 +29,10 @@
 .footerNavContact {
   border-right: solid black .5px;
   flex: .2;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2px;
   color: black;
   text-decoration: none;
 }
@@ -39,7 +46,10 @@
 .footerNavPortfolio {
   border-right: solid black .5px;
   flex: .2;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2px;
   color: black;
   text-decoration: none;
 }
@@ -53,7 +63,10 @@
 .footerNavSkills {
   border-right: solid black .5px;
   flex: .2;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2px;
   color: black;
   text-decoration: none;
 }
@@ -66,7 +79,10 @@
 
 .footerNavSocial {
   flex: .2;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2px;
   color: black;
   text-decoration: none;
 }

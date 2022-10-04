@@ -6,7 +6,9 @@ const FooterNav = () => {
   return (
     <div className="footerNav">
       <NavLink to="/aboutme" className="footerNavAboutMe">
-        1 // ABOUT ME
+        <div>
+          1 // ABOUT ME
+        </div>
       </NavLink>
       <NavLink to="/contact" className="footerNavContact">
         2 // CONTACT

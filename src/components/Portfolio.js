@@ -45,18 +45,26 @@ function Portfolio() {
         <div className="portfolioHero">
           <div className="portfolioHeroRow1">
             <div className="projectOption">
-              <a href="https://github.com/bpgoodrow/Portfolio">Portfolio</a>
+              <a href="https://github.com/bpgoodrow/Portfolio">
+                <img src="./portfolio.png" alt="portfolio image" />
+              </a>
             </div>
             <div className="projectOption">
-              <a href="https://github.com/bpgoodrow/Wrench-Knight">Wrench Knight</a>
+              <a href="https://github.com/bpgoodrow/Wrench-Knight">
+              <img src="./wrench-knight.png" alt="portfolio image" />
+              </a>
             </div>
           </div>
           <div className="portfolioHeroRow2">
             <div className="projectOption">
-              <a href="https://github.com/bpgoodrow/Arkham-Horror">Arkham</a>
+              <a href="https://github.com/bpgoodrow/Arkham-Horror">
+                <img src="./arkham-horror.png" alt="arkham horror game"/>
+              </a>
             </div>
             <div className="projectOption">
-              <a href="https://github.com/bpgoodrow/FunctionalJSRPG">Worker Game</a>
+              <a href="https://github.com/bpgoodrow/FunctionalJSRPG">
+                <img src="./paper-pusher.png" alt="paper push game"/>
+              </a>
             </div>
           </div>
         </div>
