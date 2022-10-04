@@ -13,19 +13,19 @@
 
 .contactHeader > div:nth-child(1) {
   position: relative;
-  animation: animate .5s;
+  animation: animate 1s;
   animation-fill-mode: backwards;
 }
 
 .contactHeader > div:nth-child(2) {
   position: relative;
-  animation: animate 1s;
+  animation: animate 1.5s;
   animation-fill-mode: backwards;
 }
 
 .contactHeader > div:nth-child(3) {
   position: relative;
-  animation: animate 1.5s;
+  animation: animate 1.25s;
   animation-fill-mode: backwards;
 }
 
@@ -37,7 +37,7 @@
 
 .contactHeader > div:nth-child(5) {
   position: relative;
-  animation: animate 2.5s;
+  animation: animate 1.75s;
   animation-fill-mode: backwards;
 }
 
@@ -49,7 +49,7 @@
 
 .contactHeader > div:nth-child(7) {
   position: relative;
-  animation: animate 2.5s;
+  animation: animate 2.25s;
   animation-fill-mode: backwards;
 }
 
@@ -74,15 +74,16 @@
 .contactHero {
   border-right: solid black .5px;
   flex: .9;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  padding: 20px;
-  padding-right: 100px;
+  /* display: flex;
+  flex-direction: column; */
+  /* padding: 20px;
+  padding-right: 100px; */
   background: white;
 }
 
 .contactHeroHeader {
+  margin-top: 20px;
+  margin-left: 20px;
   font-size: 2em;
 }
 
@@ -90,26 +91,75 @@
   display: flex;
   justify-content: center;
   margin-top: 8em;
+  padding: 5px;
 }
 
-.contactHeroFormLine1 {
-  margin: 1em;
+.contactHeroFormName  {
+  width: 20em;
+  margin-bottom: 10px;
 }
 
-.contactHeroFormLine2 {
-  display: flex;
-  justify-content: center;
-  margin: 1em;
+.contactHeroFormName > input {
+ width: 100%;
+ outline: none;
 }
 
-.contactHeroFormLine2Child > textarea {
-  height: auto;
-  width: 25em;
+.contactHeroFormEmail  {
+  width: 20em;
+  margin-bottom: 10px;
 }
 
-.contactHeroFormButton {
-  display: flex;
-  justify-content: flex-end;
+.contactHeroFormEmail > input {
+ width: 100%;
+ outline: none;
+}
+
+.contactHeroFormMessage  {
+  width: 20em;
+  margin-bottom: 10px;
+}
+
+.contactHeroFormMessage > textarea {
+ outline: none;
+ width: 100%;
+}
+
+.contactHeroFormButton > button{
+  border-radius: 4px;
+  background-color: #000;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 1em;
+  padding: 10px;
+  width: 100px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.contactHeroFormButton > .button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.contactHeroFormButton > .button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.contactHeroFormButton > .button:hover span {
+  padding-right: 25px;
+}
+
+.contactHeroFormButton > .button:hover span:after {
+  opacity: 1;
+  right: 0;
 }
 
 .contactNumber {

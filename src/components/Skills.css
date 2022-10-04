@@ -33,37 +33,37 @@
 
 .skillsHeader > div:nth-child(1){
   position: relative;
-  animation: animate .5s;
+  animation: animate 2s;
   animation-fill-mode: backwards;
 }
 
 .skillsHeader > div:nth-child(2){
   position: relative;
-  animation: animate 1s;
+  animation: animate 1.75s;
   animation-fill-mode: backwards;
 }
 
 .skillsHeader > div:nth-child(3){
   position: relative;
-  animation: animate 1.5s;
+  animation: animate 1.25s;
   animation-fill-mode: backwards;
 }
 
 .skillsHeader > div:nth-child(4){
   position: relative;
-  animation: animate 2s;
+  animation: animate 1.5s;
   animation-fill-mode: backwards;
 }
 
 .skillsHeader > div:nth-child(5){
   position: relative;
-  animation: animate 2.5s;
+  animation: animate 2.25s;
   animation-fill-mode: backwards;
 }
 
 .skillsHeader > div:nth-child(6){
   position: relative;
-  animation: animate 3s;
+  animation: animate 1s;
   animation-fill-mode: backwards;
 }
 

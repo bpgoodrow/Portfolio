@@ -14,9 +14,11 @@ const Contact = () => {
       .then((result) => {
           console.log(result.text);
           console.log("message sent")
+          
       }, (error) => {
           console.log(error.text);
       });
+    e.target.reset();
   };
 
   return (
@@ -58,17 +60,17 @@ const Contact = () => {
             </div>
             <div className='contactHeroForm'>
               <form ref={form} onSubmit={sendEmail}>
-                <div className='contactHeroFormLine1'>
+                <div className='contactHeroFormName'>
                   <input type="text" name="user_name" placeholder='Name'/>
+                </div>
+                <div className='contactHeroFormEmail'>
                   <input type="email" name="user_email" placeholder='Email Address'/>
                 </div>
-                <div className='contactHeroFormLine2'>
-                  <div className='contactHeroFormLine2Child'>
+                <div className='contactHeroFormMessage'>
                     <textarea name="message" placeholder='Message'/>
-                  </div>
                 </div>
                 <div className='contactHeroFormButton'>
-                  <input type="submit" value="Submit" />
+                <button class="button"><span>Submit </span></button>
                 </div>
               </form>
             </div>

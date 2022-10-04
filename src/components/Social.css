@@ -13,7 +13,7 @@
 
 .socialHeader > div:nth-child(1) {
   position: relative;
-  animation: animate .5s;
+  animation: animate 2s;
   animation-fill-mode: backwards;
 }
 
@@ -31,19 +31,19 @@
 
 .socialHeader > div:nth-child(4) {
   position: relative;
-  animation: animate 2s;
+  animation: animate 1.25s;
   animation-fill-mode: backwards;
 }
 
 .socialHeader > div:nth-child(5) {
   position: relative;
-  animation: animate 2.5s;
+  animation: animate 1.75s;
   animation-fill-mode: backwards;
 }
 
 .socialHeader > div:nth-child(6) {
   position: relative;
-  animation: animate 3s;
+  animation: animate 2.25s;
   animation-fill-mode: backwards;
 }
 
