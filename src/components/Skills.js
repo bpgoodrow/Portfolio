@@ -34,8 +34,27 @@ function Skills() {
     </div>
     <div className="skillsBody">
       <div className="skillsHero">
-        <div>
-          <img src="./css3logo.png"/>
+        <div className="row1">
+          <div className="css3">
+            <img src="./css3logo.png"/>
+          </div>
+          <div>
+            <img src="./html5logo2.png"/>
+          </div>
+          <div>
+            <img src="./jslogo1.png"/>
+          </div>
+        </div>
+        <div className="row2">
+          <div>
+            <img src="./reactlogo2.png"/>
+          </div>
+          <div>
+            <img src="./firebaselogo.png"/>
+          </div>
+          <div>
+            <img src="./csharplogo2.png"/>
+          </div>
         </div>
       </div>
       <div className="skillsNumber">

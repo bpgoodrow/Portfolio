@@ -82,3 +82,4 @@ _{A Portfolio Website built using React, Javascript, Css, Html, Firebase.}_
 - 1:00 add skills images
 - 2:00 size skills images
 - 3:00 find new skill images
+- 4:00 tweak design and styling

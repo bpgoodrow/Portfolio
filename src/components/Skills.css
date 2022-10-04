@@ -23,10 +23,8 @@
 .skillsHero {
   border-right: solid black .5px;
   flex: .9;
-  display: flex;
-  flex-wrap: wrap;
-  padding: 20px;
-  padding-right: 100px;
+  justify-content: space-evenly;
+  padding: 10px;
   background: white;
   overflow: hidden;
 }
@@ -76,9 +74,38 @@
   }
 }
 
-.skillsHero > div > img {
+.row1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 10px;
+  margin: 10px;
+}
+
+.row2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding-right: 10px;
+  margin: 10px;
+}
+
+.row1 > div > img {
   width: 200px;
   height: auto;
+}
+
+.row2 > div > img {
+  width: 200px;
+  height: auto;
+}
+
+.row1 > .css3 > img {
+  width: 142px;
+  height: auto;
+  padding-left: 10px;
 }
 
 .skillsNumber {
