@@ -76,6 +76,11 @@
   }
 }
 
+.skillsHero > div > img {
+  width: 200px;
+  height: auto;
+}
+
 .skillsNumber {
   display: flex;
   align-items: flex-end;

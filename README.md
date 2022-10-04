@@ -81,3 +81,4 @@ _{A Portfolio Website built using React, Javascript, Css, Html, Firebase.}_
 - 11:00 responsive images in Portfolio
 - 1:00 add skills images
 - 2:00 size skills images
+- 3:00 find new skill images
