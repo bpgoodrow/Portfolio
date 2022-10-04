@@ -73,3 +73,6 @@ _{A Portfolio Website built using React, Javascript, Css, Html, Firebase.}_
 - 3:00 Write About Me and Contact
 - 4:00 style contact forms and button
 - 8:00 continue styling Contact
+
+## 10/04/2022
+- 8:00 Refacter footer nav
