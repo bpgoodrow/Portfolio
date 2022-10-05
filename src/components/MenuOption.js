@@ -9,11 +9,10 @@ const MenuOption = ({ title }) => {
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: .8 }}
     >
-    <span>
     <div className="menuOption">
-     {title}
+      <span>{title}</span>
     </div>
-    </span>
+    
     </motion.div>
   )
 }

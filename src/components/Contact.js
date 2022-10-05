@@ -1,7 +1,6 @@
 import React, { useState, useRef } from 'react';
 import './Contact.css';
 import { motion } from "framer-motion";
-import { NavLink } from "react-router-dom";
 import emailjs from '@emailjs/browser';
 import FooterNav from './FooterNav';
 

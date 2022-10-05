@@ -13,7 +13,7 @@ const PortfolioControl = () => {
       transition={{ duration: .4 }}
       >
       <NavLink to="/aboutMe" className="menuOptions">
-        <MenuOption title="// ABOUT ME" />
+        <MenuOption title="ABOUT ME" />
       </NavLink>
         <NavLink to="/contact" className="menuOptions">
           <MenuOption title="CONTACT" />

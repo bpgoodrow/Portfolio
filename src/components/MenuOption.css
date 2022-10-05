@@ -21,14 +21,14 @@
   filter: drop-shadow(2px 2px 2px grey);
 }
 
-.menuOption > span {
+.menuOption span {
   cursor: pointer;
   display: inline-block;
   position: relative;
   transition: 0.3s;
 }
 
-.menuOption > span:before {
+.menuOption span:before {
   content: '\002F\002F';
   position: absolute;
   opacity: 0;
@@ -37,11 +37,11 @@
   transition: 0.3s;
 }
 
-.menuOption:hover > span {
+.menuOption:hover span {
   padding-left: 25px;
 }
 
-.menuOption:hover > span:before {
+.menuOption:hover span:before {
   opacity: 1;
   left: 0;
 }
