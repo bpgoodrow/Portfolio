@@ -83,3 +83,6 @@ _{A Portfolio Website built using React, Javascript, Css, Html, Firebase.}_
 - 2:00 size skills images
 - 3:00 find new skill images
 - 4:00 tweak design and styling
+
+## 10/05/2022
+- 9:00 Begin combining contact and social

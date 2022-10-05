@@ -59,7 +59,9 @@ const Contact = () => {
         <div className="contactBody">
           <div className="contactHero">
             <div className='contactHeroHeader'>
-              Drop me a line, I'm always happy to chat
+              Drop me a line or give me a follow, 
+              <br/>
+              I'm always happy to chat
             </div>
             <div className='contactHeroForm'>
               <form ref={form} onSubmit={sendEmail}>

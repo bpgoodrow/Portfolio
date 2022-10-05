@@ -74,10 +74,6 @@
 .contactHero {
   border-right: solid black .5px;
   flex: .9;
-  /* display: flex;
-  flex-direction: column; */
-  /* padding: 20px;
-  padding-right: 100px; */
   background: white;
 }
 
@@ -90,39 +86,51 @@
 .contactHeroForm {
   display: flex;
   justify-content: center;
-  margin-top: 8em;
+  margin-top: 4em;
   padding: 5px;
 }
 
 .contactHeroFormName  {
-  width: 20em;
+  width: 25em;
   margin-bottom: 10px;
 }
 
 .contactHeroFormName > input {
  width: 100%;
+ line-height: 2em;
  outline: none;
- 
+ border: transparent;
+ background-color: rgb(236, 236, 236);
+}
+
+.contactHeroFormName > input:focus {
+  border: 1px solid #555;
 }
 
 .contactHeroFormEmail  {
-  width: 20em;
+  width: 25em;
   margin-bottom: 10px;
 }
 
 .contactHeroFormEmail > input {
  width: 100%;
+ line-height: 2em;
  outline: none;
+ border: transparent;
+ background-color: rgb(236, 236, 236);
 }
 
 .contactHeroFormMessage  {
-  width: 20em;
+  width: 25em;
   margin-bottom: 10px;
 }
 
 .contactHeroFormMessage > textarea {
  outline: none;
+ line-height: 2em;
  width: 100%;
+ border: transparent;
+ background-color: rgb(236, 236, 236);
 }
 
 .contactHeroFormButtonReplyContainer {

@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import './AboutMe.css';
-import { useAnimation, motion } from "framer-motion";
+import { motion } from "framer-motion";
 import FooterNav from "./FooterNav";
 
 function AboutMe() {
@@ -44,15 +44,14 @@ function AboutMe() {
               </div>
               <div className="aboutMeHeroBody">
                 <div>
-                  I'm a software developer currently residing in Portland, OR with my partner and our animals.
-                </div>
-                <div>
+                  I'm a software developer currently residing in Portland, OR with my partner, dog and cat.
+
+                  I believe in writing code with the user in mind first, understanding what my application can do for them.
+                
                   I love finding the intersection of design and functionality, writing code to make things look great as well as execute efficiently.
-                </div>
-                <div>
+                
                   I'm always interested in new opportunities, whether fulltime or freelance.
-                </div>
-                <div>
+                
                   Outside of development I enjoy playing music, spending time outdoors, and pursuing my passion for baking.
                 </div>
               </div>
