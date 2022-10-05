@@ -8,11 +8,13 @@
 * Babel
 * Bootstrap
 * CSS
+* Framer Motion Library
 * Firebase
 * JavaScript
 * Jest
 * jQuery
 * NPM
+* EmailJS
 
 ## Description
 _{A Portfolio Website built using React, Javascript, Css, Html, Firebase.}_
@@ -88,3 +90,4 @@ _{A Portfolio Website built using React, Javascript, Css, Html, Firebase.}_
 - 9:00 Begin combining contact and social
 - 10:00 Add more motion to menuOption
 - 11:00 refactor nav footer
+- 2:00 Incorporate recaptcha to email form

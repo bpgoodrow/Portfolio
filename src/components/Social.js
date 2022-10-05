@@ -2,8 +2,10 @@ import React from "react";
 import './Social.css';
 import { motion } from "framer-motion";
 import FooterNav from "./FooterNav";
+import SpotifyPlayer from "react-spotify-web-playback";
 
 function Social () {
+  
   return(
     <React.Fragment>
       <motion.div
