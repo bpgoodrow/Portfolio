@@ -25,7 +25,7 @@ const PortfolioControl = () => {
           <MenuOption title="SKILLS" />
         </NavLink>
         <NavLink to="/social" className="menuOptions">
-          <MenuOption title="SOCIAL" />
+          <MenuOption title="MUSIC" />
         </NavLink>
       </motion.div>
     </React.Fragment>

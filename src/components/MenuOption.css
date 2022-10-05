@@ -1,7 +1,6 @@
 .menuOptions {
   flex: .2;
   font-size: 2em;
-  
   border: solid black .5px;
   display: flex;
   justify-content: center;
@@ -11,7 +10,8 @@
   color: black;
   text-decoration: none;
   background: white;
-  transition: .3s;
+  transition: all .3s;
+  cursor: pointer;
 }
 
 .menuOptions:hover {
@@ -19,4 +19,29 @@
   color: white;
   cursor: pointer;
   filter: drop-shadow(2px 2px 2px grey);
+}
+
+.menuOption > span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.3s;
+}
+
+.menuOption > span:before {
+  content: '\002F\002F';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: -20px;
+  transition: 0.3s;
+}
+
+.menuOption:hover > span {
+  padding-left: 25px;
+}
+
+.menuOption:hover > span:before {
+  opacity: 1;
+  left: 0;
 }

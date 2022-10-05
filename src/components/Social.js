@@ -1,7 +1,6 @@
 import React from "react";
 import './Social.css';
 import { motion } from "framer-motion";
-import { NavLink } from "react-router-dom";
 import FooterNav from "./FooterNav";
 
 function Social () {
@@ -14,71 +13,29 @@ function Social () {
       >
       <div className="socialHeader">
         <div>
+          M
+        </div>
+        <div>
+          U
+        </div>
+        <div>
           S
-        </div>
-        <div>
-          O
-        </div>
-        <div>
-          C
         </div>
         <div>
           I
         </div>
         <div>
-          A
-        </div>
-        <div>
-          L
+          C
         </div>
       </div>
 
       <div className="socialBody">
         <div className="socialHero">
           <div className="socialHeroText">
-            Check out my work or give me a follow
+            Music has always been a huge part of my life. Here a couple projects I'm in.
           </div>
-          <div className="socialHeroLinkContainer">
-            <div>
-              <a href="https://github.com/bpgoodrow/" target="_blank">
-                <img
-                  alt="github logo"
-                  srcset="
-                  ./github.png
-                  "
-                />
-              </a>
-            </div>
-            <div>
-              <a href="https://www.linkedin.com/in/bengoodrow/" target="_blank">
-                <img
-                  alt="Linkedin logo"
-                  srcset="
-                  ./linkedin.png
-                  "
-                />
-              </a>
-            </div>
-            <div>
-              <a href="https://www.instagram.com/bpgoodrow/" target="_blank">
-                <img
-                  alt="Instagram logo"
-                  srcset="
-                  ./insta.png
-                  "
-                />
-              </a>
-            </div>
-            <div>
-              <a href="https://www.facebook.com/" target="_blank">
-                <img
-                  alt="Facebook logo"
-                  srcset="
-                  ./facebook.png
-                  "
-                  />
-              </a>
-            </div>
+          <div className="spotifyContainer">
+
           </div>
         </div>
 

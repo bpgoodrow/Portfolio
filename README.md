@@ -86,3 +86,4 @@ _{A Portfolio Website built using React, Javascript, Css, Html, Firebase.}_
 
 ## 10/05/2022
 - 9:00 Begin combining contact and social
+- 10:00 Add more motion to menuOption

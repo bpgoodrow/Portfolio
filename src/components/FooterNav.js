@@ -20,7 +20,7 @@ const FooterNav = () => {
         // SKILLS
       </NavLink>
       <NavLink to="/social" className="footerNavSocial">
-        // SOCIAL
+        // MUSIC
       </NavLink>
     </div>
   )

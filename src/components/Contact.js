@@ -84,6 +84,48 @@ const Contact = () => {
                 </div>
               </form>
             </div>
+            <div className='contactHeroSocialLinks'>
+              <div>
+                <a href="https://github.com/bpgoodrow/" target="_blank">
+                  <img
+                    alt="github logo"
+                    srcset="
+                    ./github.png
+                    "
+                  />
+                </a>
+              </div>
+              <div>
+                <a href="https://www.linkedin.com/in/bengoodrow/" target="_blank">
+                  <img
+                    alt="Linkedin logo"
+                    srcset="
+                    ./linkedin.png
+                    "
+                  />
+                </a>
+              </div>
+              <div>
+                <a href="https://www.instagram.com/bpgoodrow/" target="_blank">
+                  <img
+                    alt="Instagram logo"
+                    srcset="
+                    ./insta.png
+                    "
+                  />
+                </a>
+              </div>
+              <div>
+                <a href="https://www.facebook.com/" target="_blank">
+                  <img
+                    alt="Facebook logo"
+                    srcset="
+                    ./facebook.png
+                    "
+                    />
+                </a>
+              </div>
+            </div>          
 
         </div>
         <div className="contactNumber">
