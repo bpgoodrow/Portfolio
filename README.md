@@ -91,3 +91,4 @@ _{A Portfolio Website built using React, Javascript, Css, Html, Firebase.}_
 - 10:00 Add more motion to menuOption
 - 11:00 refactor nav footer
 - 2:00 Incorporate recaptcha to email form
+- 3:00 continue to implement captcha

@@ -3,11 +3,16 @@ import './Contact.css';
 import { motion } from "framer-motion";
 import emailjs from '@emailjs/browser';
 import FooterNav from './FooterNav';
+import ReCAPTCHA from 'react-google-recaptcha';
 
 const Contact = () => {
 
   const [replyText, setReplyText] = useState('');
   const form = useRef();
+
+  const onChange = () => {
+    
+  }
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -16,7 +21,6 @@ const Contact = () => {
           console.log(result.text);
           console.log("message sent")
           setReplyText('Message Sent!')
-          
       }, (error) => {
           console.log(error.text);
       });
@@ -77,12 +81,19 @@ const Contact = () => {
                   <div className='contactHeroFormButton'>
                     <button class="button"><span>Submit </span></button>
                   </div>
+                  <div className='captchaContainer'>
+                    <ReCAPTCHA
+                    sitekey='6LcZd1oiAAAAAMYLXLFY7ZbG7I3arjYeTW0-2lqy'
+                    onChange={onChange}
+                    />
+                  </div>
                   <div className='contactHeroFormReply'>
                     {replyText}
                   </div>
                 </div>
               </form>
             </div>
+
             <div className='contactHeroSocialLinks'>
               <div>
                 <a href="https://github.com/bpgoodrow/" target="_blank">
