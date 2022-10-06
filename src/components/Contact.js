@@ -65,6 +65,9 @@ const Contact = () => {
             </div>
             <div className='contactHeroForm'>
               <form ref={form} onSubmit={sendEmail}>
+                <div className='contactHeroFormReply'>
+                    {replyText}
+                </div>
                 <div className='contactHeroFormName'>
                   <input type="text" name="user_name" placeholder='Name'/>
                 </div>
@@ -74,20 +77,17 @@ const Contact = () => {
                 <div className='contactHeroFormMessage'>
                     <textarea name="message" placeholder='Message'/>
                 </div>
-                <div className='contactHeroFormButtonReplyContainer'>
-                  <div className='contactHeroFormButton'>
-                    <button class="button"><span>Submit </span></button>
-                  </div>
-                  <div className='contactHeroFormReply'>
-                    {replyText}
-                  </div>
-                  
-                </div>
-                <div>
+                
+                <div className='recaptcha'>
                   <ReCAPTCHA 
                   sitekey="6LcZd1oiAAAAAMYLXLFY7ZbG7I3arjYeTW0-2lqy"
                   ref={captchaRef}
                 />
+                </div>
+                <div className='contactHeroFormButtonReplyContainer'>
+                  <div className='contactHeroFormButton'>
+                    <button class="button"><span>Submit </span></button>
+                  </div>
                 </div>
               </form>
             </div>

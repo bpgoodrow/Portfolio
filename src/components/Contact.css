@@ -93,6 +93,11 @@
   padding: 5px;
 }
 
+.contactHeroFormReply {
+  display: flex;
+  justify-content: center;
+}
+
 .contactHeroFormName  {
   width: 25em;
   margin-bottom: 10px;
@@ -143,8 +148,8 @@
 
 .contactHeroFormButtonReplyContainer {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  margin-bottom: 10px;
 }
 
 .contactHeroFormButton > button{
@@ -155,6 +160,7 @@
   text-align: center;
   font-size: 1em;
   padding: 10px;
+  margin-top: 10px;
   width: 100px;
   transition: all 0.5s;
   cursor: pointer;
@@ -183,6 +189,11 @@
 .contactHeroFormButton > .button:hover span:after {
   opacity: 1;
   right: 0;
+}
+
+.recaptcha {
+  display: flex;
+  justify-content: center;
 }
 
 .contactHeroSocialLinks {
