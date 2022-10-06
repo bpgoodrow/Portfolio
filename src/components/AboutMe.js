@@ -64,7 +64,7 @@ function AboutMe() {
               </div>
             </div>
           </div>
-          <FooterNav/>
+          <FooterNav title="ABOUT ME" />
         </div>
       </motion.div>
     </React.Fragment>

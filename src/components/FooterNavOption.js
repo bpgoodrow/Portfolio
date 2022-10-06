@@ -3,7 +3,7 @@ import './FooterNav.css';
 
 const FooterNavOption = ({ FooterTitle }) => {
   return(
-    <div className="footerNavOption">
+    <div>
       <span>{FooterTitle}</span>
     </div>
   )

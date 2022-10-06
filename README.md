@@ -93,3 +93,4 @@ _{A Portfolio Website built using React, Javascript, Css, Html, Firebase.}_
 - 2:00 Incorporate recaptcha to email form
 - 3:00 continue to implement captcha
 - 5:00 Lots of debugging
+- 8:00 Continue adjusting styling

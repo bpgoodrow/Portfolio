@@ -7,19 +7,19 @@ const FooterNav = () => {
   return (
     <div className="footerNav">
       <NavLink to="/aboutme" className="footerNavOption">
-        <FooterNavOption title="ABOUT ME" />
+        <FooterNavOption FooterTitle="ABOUTME" />
       </NavLink>
       <NavLink to="/contact" className="footerNavOption">
-        <FooterNavOption title="CONTACT" />
+        <FooterNavOption FooterTitle="CONTACT" />
       </NavLink>
       <NavLink to="/portfolio" className="footerNavOption">
-        <FooterNavOption title="PROJECTS" />
+        <FooterNavOption FooterTitle="PROJECTS" />
       </NavLink>
       <NavLink to="/skills" className="footerNavOption">
-        <FooterNavOption title="SKILLS" />
+        <FooterNavOption FooterTitle="SKILLS" />
       </NavLink>
       <NavLink to="/social" className="footerNavOption">
-        <FooterNavOption title="MUSIC" />
+        <FooterNavOption FooterTitle="MUSIC" />
       </NavLink>
     </div>
   )

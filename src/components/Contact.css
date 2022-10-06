@@ -187,13 +187,15 @@
 
 .contactHeroSocialLinks {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 }
 
 .contactHeroSocialLinks > div > a > img {
   width: 25px;
   height: auto;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .contactNumber {
