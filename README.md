@@ -24,6 +24,9 @@
 
 ![component-diagram](./Portfolio.png)
 
+## Known Bugs
+- reCAPTCHA only displays upon site refresh
+
 ## Hour Log
 
 ### 9/16/2022
@@ -100,3 +103,4 @@
 
 ## 10/06/2022
 - 8:00 begin making final tweaks for presentation
+- 9:00 deploy final presentation version of website

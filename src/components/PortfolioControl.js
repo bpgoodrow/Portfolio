@@ -11,6 +11,7 @@ const PortfolioControl = () => {
       initial={{ y: window.innerHeight, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: .4 }}
+      whileTap={{ scale: 0.8 }}
       >
       <NavLink to="/aboutMe" className="menuOptions">
         <MenuOption title="ABOUT ME" />

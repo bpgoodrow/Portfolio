@@ -40,12 +40,12 @@ function Social () {
           </div>
           <div className="spotifyContainer">
             <div>
-              <a href="https://open.spotify.com/track/6hAs8YvZ6OQKzUxbpTtqaS?si=da09b2c9139f49e9">
+              <a href="https://open.spotify.com/track/6hAs8YvZ6OQKzUxbpTtqaS?si=da09b2c9139f49e9" target='_blank'>
                 <img src="./coyotetalk.png"/>
               </a>
             </div>
             <div>
-              <a href="https://open.spotify.com/track/0BbNkc3fCOXFK8933NsLvT?si=d3f6705a3b864b22">
+              <a href="https://open.spotify.com/track/0BbNkc3fCOXFK8933NsLvT?si=d3f6705a3b864b22" target='_blank'>
                 <img src="./pvnchr.png"/>
               </a>
             </div>
