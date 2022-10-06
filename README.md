@@ -17,7 +17,8 @@
 * EmailJS
 
 ## Description
-_{A Portfolio Website built using React, Javascript, Css, Html, Firebase.}_
+- A Portfolio Website built using React, Javascript, Css, Html, Firebase.
+- Maintains a combination of brutalist and minimalist web design principles.
 
 ## Component Diagram
 
@@ -95,3 +96,7 @@ _{A Portfolio Website built using React, Javascript, Css, Html, Firebase.}_
 - 5:00 Lots of debugging
 - 8:00 Continue adjusting styling
 - 9:00 Fix small styling errors
+- 9:30 EOD commit
+
+## 10/06/2022
+- 8:00 begin making final tweaks for presentation

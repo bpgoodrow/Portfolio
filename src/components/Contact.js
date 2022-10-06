@@ -80,7 +80,7 @@ const Contact = () => {
                 
                 <div className='recaptcha'>
                   <ReCAPTCHA 
-                  sitekey="6LcZd1oiAAAAAMYLXLFY7ZbG7I3arjYeTW0-2lqy"
+                  sitekey={process.env.REACT_APP_RECAPTCHA_SITE_KEY}
                   ref={captchaRef}
                 />
                 </div>
