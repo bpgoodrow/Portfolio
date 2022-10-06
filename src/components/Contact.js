@@ -78,15 +78,16 @@ const Contact = () => {
                   <div className='contactHeroFormButton'>
                     <button class="button"><span>Submit </span></button>
                   </div>
-                  <div>
-                    <ReCAPTCHA 
-                    sitekey="6LcZd1oiAAAAAMYLXLFY7ZbG7I3arjYeTW0-2lqy"
-                    ref={captchaRef}
-                    />
-                  </div>
                   <div className='contactHeroFormReply'>
                     {replyText}
                   </div>
+                  
+                </div>
+                <div>
+                  <ReCAPTCHA 
+                  sitekey="6LcZd1oiAAAAAMYLXLFY7ZbG7I3arjYeTW0-2lqy"
+                  ref={captchaRef}
+                />
                 </div>
               </form>
             </div>

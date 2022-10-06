@@ -15,7 +15,7 @@
   border: solid black .5px;
   margin-left: 10px;
   margin-right: 10px;
-  min-height: 500px;
+  min-height: 75vh;
   display: flex;
   background: white;
 }

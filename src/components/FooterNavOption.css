@@ -16,3 +16,28 @@
   color: white;
   cursor: pointer;
 }
+
+.footerNavOption span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.3s;
+}
+
+.footerNavOption span:before {
+  content: '\002F\002F';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: -20px;
+  transition: 0.3s;
+}
+
+.footerNavOption:hover span {
+  padding-left: 25px;
+}
+
+.footerNavOption:hover span:before {
+  opacity: 1;
+  left: 0;
+}

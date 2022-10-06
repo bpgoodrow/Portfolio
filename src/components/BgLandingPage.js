@@ -1,16 +1,15 @@
 import React from 'react';
 import Header from './Header';
-import { BrowserRouter as Router } from 'react-router-dom';
 import AnimatedRoutes from './AnimatedRoutes';
+import { BrowserRouter as Router } from 'react-router-dom';
+
 
 const BgLandingPage = () => {
   return (
-    
-    <div className='bgLandingPage'>
+    <React.Fragment>
       {/* <Header />
       <AnimatedRoutes /> */}
-    </div>
-    
+    </React.Fragment>
   )
 }
 

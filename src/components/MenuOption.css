@@ -1,11 +1,11 @@
-.menuOption span {
+.menuOptions span {
   cursor: pointer;
   display: inline-block;
   position: relative;
   transition: 0.3s;
 }
 
-.menuOption span:before {
+.menuOptions span:before {
   content: '\002F\002F';
   position: absolute;
   opacity: 0;
@@ -14,11 +14,11 @@
   transition: 0.3s;
 }
 
-.menuOption:hover span {
+.menuOptions:hover span {
   padding-left: 25px;
 }
 
-.menuOption:hover span:before {
+.menuOptions:hover span:before {
   opacity: 1;
   left: 0;
 }

@@ -14,7 +14,7 @@ function AnimatedRoutes() {
   return (
     <AnimatePresence>
       <Routes location={location} key={location.pathname}>
-        <Route path="/bglandingpage" element={<BgLandingPage/>} />
+        {/* <Route exact path="/" element={<BgLandingPage />} /> */}
         <Route exact path="/" element={<PortfolioControl />} />
         <Route path="/aboutMe" element={<AboutMe />} />
         <Route path="/contact" element={<Contact />} />
