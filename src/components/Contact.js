@@ -9,10 +9,7 @@ const Contact = () => {
 
   const [replyText, setReplyText] = useState('');
   const form = useRef();
-
-  const onChange = () => {
-    
-  }
+  const captchaRef = useRef(null)
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -81,10 +78,10 @@ const Contact = () => {
                   <div className='contactHeroFormButton'>
                     <button class="button"><span>Submit </span></button>
                   </div>
-                  <div className='captchaContainer'>
-                    <ReCAPTCHA
-                    sitekey='6LcZd1oiAAAAAMYLXLFY7ZbG7I3arjYeTW0-2lqy'
-                    onChange={onChange}
+                  <div>
+                    <ReCAPTCHA 
+                    sitekey="6LcZd1oiAAAAAMYLXLFY7ZbG7I3arjYeTW0-2lqy"
+                    ref={captchaRef}
                     />
                   </div>
                   <div className='contactHeroFormReply'>

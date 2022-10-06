@@ -7,12 +7,14 @@ import Skills from './Skills';
 import Social from './Social';
 import PortfolioControl from './PortfolioControl';
 import { AnimatePresence } from 'framer-motion';
+import BgLandingPage from "./BgLandingPage";
 
 function AnimatedRoutes() {
   const location = useLocation();
   return (
     <AnimatePresence>
       <Routes location={location} key={location.pathname}>
+        <Route path="/bglandingpage" element={<BgLandingPage/>} />
         <Route exact path="/" element={<PortfolioControl />} />
         <Route path="/aboutMe" element={<AboutMe />} />
         <Route path="/contact" element={<Contact />} />
