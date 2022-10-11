@@ -40,14 +40,9 @@ function Social () {
           </div>
           <div className="spotifyContainer">
             <div>
-              <a href="https://open.spotify.com/track/6hAs8YvZ6OQKzUxbpTtqaS?si=da09b2c9139f49e9" target='_blank'>
-                <img src="./coyotetalk.png"/>
-              </a>
-            </div>
-            <div>
-              <a href="https://open.spotify.com/track/0BbNkc3fCOXFK8933NsLvT?si=d3f6705a3b864b22" target='_blank'>
-                <img src="./pvnchr.png"/>
-              </a>
+              <iframe style={{borderRadius: "12px"}} src="https://open.spotify.com/embed/track/6hAs8YvZ6OQKzUxbpTtqaS?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+              <iframe style={{borderRadius: "12px"}} src="https://open.spotify.com/embed/track/0BbNkc3fCOXFK8933NsLvT?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+              
             </div>
           </div>
         </div>
