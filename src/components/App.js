@@ -1,19 +1,22 @@
-import React from 'react';
+import { React, useState } from 'react';
 import Header from './Header';
 import './App.css';
-import './BgLandingPage';
+import './ToggleVisibility';
 import { BrowserRouter as Router } from 'react-router-dom';
 import AnimatedRoutes from './AnimatedRoutes';
-// import { NavLink } from "react-router-dom";
-// import BgLandingPage from './BgLandingPage';
+import { NavLink } from "react-router-dom";
+import BgLandingPage from './ToggleVisibility';
 
 
 function App() {
   return (
     <Router>
     <div className='app'>
-      <Header/>
-      <AnimatedRoutes/>
+       
+      <BgLandingPage>
+        <Header />
+        <AnimatedRoutes />
+      </BgLandingPage>
     </div>
    </Router>
   );
