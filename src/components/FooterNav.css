@@ -3,5 +3,18 @@
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 2px;
+
 }
 
+.mobileFooterNav {
+  
+}
+
+@media (max-width: 900px){
+  .footerNav{
+   display: flex;
+  }
+  .mobileFooterNav {
+    display: none;
+  }
+}

@@ -11,15 +11,13 @@ const ToggleVisibility = ({ children }) => {
     setShow(!show);
   }
 
-  const text = show ? null : "BG."
+  const logo = show ? null : <img src='./Logo.png'/>
 
   return (
     <div className="componentContainer">
       {show && children }
       <div onClick={toggleShow}>
-        <h1>
-          {text}
-        </h1>
+          {logo}
       </div>
     </div>
   )
