@@ -7,14 +7,14 @@
 }
 
 .mobileFooterNav {
-  
+  display: none;
 }
 
 @media (max-width: 900px){
   .footerNav{
-   display: flex;
+   display: none;
   }
   .mobileFooterNav {
-    display: none;
+    display: contents;
   }
 }

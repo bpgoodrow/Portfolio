@@ -1,0 +1,17 @@
+.hamburgerContainer {
+  display: flex;
+  justify-content: center;
+  border: solid .5px black;
+  border-top: none;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.hamburger {
+  cursor: pointer;
+}
+
+.mobileLinks {
+  margin-left: 10px;
+  margin-right: 10px;
+}
