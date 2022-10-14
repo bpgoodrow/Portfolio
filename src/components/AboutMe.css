@@ -88,7 +88,7 @@
 .aboutMeHeroBody {
   display: flex;
   flex-wrap: wrap;
-  padding-right: 100px;
+  padding-right: 200px;
   font-size: 1.75em;
 }
 
@@ -114,4 +114,10 @@
 
 .aboutMeSideBar{
   flex: .1;
+}
+
+@media (max-width: 700px) {
+  .aboutMeHeroBody{
+    padding-right: 10px;
+  }
 }

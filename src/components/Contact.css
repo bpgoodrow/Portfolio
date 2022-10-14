@@ -66,9 +66,10 @@
   border: solid black .5px;
   margin-left: 10px;
   margin-right: 10px;
-  height: 75vh;
+  min-height: 75vh;
   display: flex;
   background: white;
+
 }
 
 .contactHero {
@@ -85,6 +86,8 @@
   justify-content: center;
   font-size: 2em;
   margin-right: 10px;
+  margin-left: 10px;
+  padding: 5px;
 }
 
 .contactHeroForm {
@@ -99,7 +102,6 @@
 }
 
 .contactHeroFormName  {
-  width: 25em;
   margin-bottom: 10px;
 }
 
@@ -115,7 +117,6 @@
 }
 
 .contactHeroFormEmail  {
-  width: 25em;
   margin-bottom: 10px;
 }
 
@@ -131,7 +132,6 @@
 }
 
 .contactHeroFormMessage  {
-  width: 25em;
   margin-bottom: 10px;
 }
 
@@ -192,8 +192,7 @@
 }
 
 .recaptcha {
-  display: flex;
-  justify-content: center;
+  width: 80%;
 }
 
 .contactHeroSocialLinks {
@@ -205,8 +204,8 @@
 .contactHeroSocialLinks > div > a > img {
   width: 25px;
   height: auto;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 3vw;
+  padding-right: 3vw;
 }
 
 .contactNumber {
@@ -220,4 +219,10 @@
   justify-content: center;
   align-items: center;
   background: white;
+}
+
+@media (max-width) {
+  .contactBody {
+    margin-right: 50px;
+  }
 }

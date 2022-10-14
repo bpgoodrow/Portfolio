@@ -134,7 +134,6 @@ const Contact = () => {
                 </a>
               </div>
             </div>          
-
         </div>
         <div className="contactNumber">
           2
