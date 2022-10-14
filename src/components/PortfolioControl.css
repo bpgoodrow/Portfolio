@@ -1,27 +1,9 @@
 .portfolioControl {
   display: flex;
-  flex-wrap: wrap;
 }
 
-.menuOptions {
-  flex: .2;
-  font-size: 2em;
-  border: solid black .5px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 10px;
-  height: 80vh;
-  color: black;
-  text-decoration: none;
-  background: white;
-  transition: all .2s;
-  cursor: pointer;
-}
-
-.menuOptions:hover {
-  background-color: black;
-  color: white;
-  cursor: pointer;
-  filter: drop-shadow(2px 2px 2px grey);
+@media (max-width: 775px) {
+  .portfolioControl {
+    display: grid;
+  }
 }

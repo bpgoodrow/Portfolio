@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
-import Header from './Header';
-import AnimatedRoutes from './AnimatedRoutes';
-import { NavLink } from 'react-router-dom';
+import './ToggleVisibility.css';
 
 const ToggleVisibility = ({ children }) => {
 
@@ -11,14 +9,21 @@ const ToggleVisibility = ({ children }) => {
     setShow(!show);
   }
 
-  const logo = show ? null : <img src='./Logo.png'/>
+  const logo = show ? null : 
+    <div className="logoContainer">  
+      <div onClick={toggleShow} className="logo">
+        <picture>
+          <source media="(max-width: 799px" srcSet='./Logo(1).png' />
+          <source media="(min-width: 800px" srcSet='./Logo(2).png' />
+          <img src='./Logo(2).png' alt='Ben Goodrow Dev Logo' />
+        </picture>
+      </div>
+    </div>
 
   return (
-    <div className="componentContainer">
+    <div>
       {show && children }
-      <div onClick={toggleShow}>
-          {logo}
-      </div>
+      {logo}
     </div>
   )
 }

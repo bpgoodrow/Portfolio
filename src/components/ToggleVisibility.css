@@ -1,0 +1,11 @@
+.logoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+}
+
+.logo {
+  cursor: pointer;
+  object-fit: contain;
+}

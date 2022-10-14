@@ -6,7 +6,6 @@ import { motion } from "framer-motion";
 
 const PortfolioControl = () => {
   return (
-    <React.Fragment>
       <motion.div className="portfolioControl"
       initial={{ y: window.innerHeight, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
@@ -29,7 +28,6 @@ const PortfolioControl = () => {
           <MenuOption title="MUSIC" />
         </NavLink>
       </motion.div>
-    </React.Fragment>
     )
 }
 
