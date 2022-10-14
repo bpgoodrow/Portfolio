@@ -78,10 +78,6 @@
   margin-top: 20px;
 }
 
-.spotifyContainer div > a > img {
-  width: 600px;
-}
-
 .socialNumber {
   display: flex;
   align-items: flex-end;
@@ -98,4 +94,10 @@
   justify-content: center;
   align-items: center;
   background: white;
+}
+
+@media (max-width: 900px) {
+  .footerNavMusic {
+    margin-bottom: 1px;
+  }
 }

@@ -1,12 +1,11 @@
 import React from "react";
-import './Portfolio.css';
+import './Projects.css';
 import { motion } from "framer-motion";
 import { NavLink } from "react-router-dom";
 import FooterNav from "./FooterNav";
 
 function Portfolio() {
   return(
-    <React.Fragment>
        <motion.div
        initial={{ y: window.innerHeight, opacity: 0 }}
        animate={{ y: 1, opacity: 1 }}
@@ -17,28 +16,25 @@ function Portfolio() {
           P
         </div>
         <div>
+          R
+        </div>
+        <div>
           O
         </div>
         <div>
-          R
+          J
+        </div>
+        <div>
+          E
+        </div>
+        <div>
+          C
         </div>
         <div>
           T
         </div>
         <div>
-          F
-        </div>
-        <div>
-          O
-        </div>
-        <div>
-          L
-        </div>
-        <div>
-          I
-        </div>
-        <div>
-          O
+          S
         </div>
       </div>
       <div className="portfolioBody">
@@ -72,12 +68,12 @@ function Portfolio() {
           <div className="portfolioNumberChild">
            3 
           </div>
-          
         </div>
       </div>
-      <FooterNav/>
+      <div className="footerNavProjects">
+        <FooterNav/>
+      </div>
       </motion.div>
-    </React.Fragment>
   )
 }
 

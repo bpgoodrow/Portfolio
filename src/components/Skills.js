@@ -64,7 +64,9 @@ function Skills() {
         
       </div>
     </div>
-    <FooterNav/>
+    <div className="footerNavSkills">
+      <FooterNav/>
+    </div>
     </motion.div>
   </React.Fragment>
   )

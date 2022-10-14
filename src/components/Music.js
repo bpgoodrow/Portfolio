@@ -1,5 +1,5 @@
 import React from "react";
-import './Social.css';
+import './Music.css';
 import { motion } from "framer-motion";
 import FooterNav from "./FooterNav";
 import SpotifyPlayer from "react-spotify-web-playback";
@@ -54,7 +54,9 @@ function Social () {
           
         </div>
       </div>
-      <FooterNav/>
+      <div className="footerNavMusic">
+        <FooterNav/>
+      </div>
       </motion.div>
     </React.Fragment>
   )

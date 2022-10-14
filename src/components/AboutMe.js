@@ -6,8 +6,6 @@ import FooterNav from "./FooterNav";
 function AboutMe() {
 
   return (
-    <React.Fragment>
-      
        <motion.div
         initial={{ y: window.innerHeight, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
@@ -63,7 +61,6 @@ function AboutMe() {
           <FooterNav title="ABOUT ME" />
         </div>
       </motion.div>
-    </React.Fragment>
   )
 }
 

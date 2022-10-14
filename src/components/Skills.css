@@ -125,3 +125,9 @@
   align-items: center;
   background: white;
 }
+
+@media (max-width: 900px) {
+  .footerNavSkills {
+    margin-bottom: 1px;
+  }
+}

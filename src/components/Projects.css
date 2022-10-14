@@ -65,8 +65,6 @@
   animation-fill-mode: backwards;
 }
 
-
-
 @keyframes animate{
   0%{
     bottom: -100px;
@@ -126,4 +124,17 @@
   justify-content: center;
   align-items: center;
   background: white;
+}
+
+@media (max-width: 900px) {
+  .footerNavProjects {
+    margin-bottom: 1px;
+  }
+}
+
+@media (max-width: 700px) {
+  .projectOption > a > img {
+    width: 300px;
+    height: 150px
+  }
 }

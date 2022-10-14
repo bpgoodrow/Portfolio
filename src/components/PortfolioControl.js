@@ -19,7 +19,7 @@ const PortfolioControl = () => {
           <MenuOption title="CONTACT" />
         </NavLink>
         <NavLink to="/portfolio" className="menuOptions">
-          <MenuOption title="PORTFOLIO" />
+          <MenuOption title="PROJECTS" />
         </NavLink>
         <NavLink to="/skills" className="menuOptions">
           <MenuOption title="SKILLS" />

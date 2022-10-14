@@ -14,7 +14,7 @@ const ToggleVisibility = ({ children }) => {
       <div onClick={toggleShow} className="logo">
         <picture>
           <source media="(max-width: 799px" srcSet='./Logo(1).png' />
-          <source media="(min-width: 800px" srcSet='./Logo(2).png' />
+          <source media="(min-width: 800px" srcSet='./Logo(3).png' />
           <img src='./Logo(2).png' alt='Ben Goodrow Dev Logo' />
         </picture>
       </div>
