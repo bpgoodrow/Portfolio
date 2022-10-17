@@ -25,7 +25,6 @@
 ![component-diagram](./Portfolio.png)
 
 ## Known Bugs
-- reCAPTCHA only displays upon site refresh
 
 ## Hour Log
 
