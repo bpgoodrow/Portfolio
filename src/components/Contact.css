@@ -191,10 +191,6 @@
   right: 0;
 }
 
-.recaptcha {
-  width: 80%;
-}
-
 .contactHeroSocialLinks {
   display: flex;
   justify-content: center;
@@ -221,8 +217,22 @@
   background: white;
 }
 
-@media (max-width) {
-  .contactBody {
-    margin-right: 50px;
+@media (max-width: 700px) {
+  .contactHeroFormName > input {
+    width: 90%;
+   }
+
+   .contactHeroFormEmail > input {
+    width: 90%;
+   }
+
+   .contactHeroFormMessage > textarea {
+    width: 90%;
+   }
+
+  .recaptcha {
+    transform:scale(0.75);
+    transform-origin:0 0;
   }
+  
 }

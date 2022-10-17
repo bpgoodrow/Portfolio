@@ -9,3 +9,9 @@
   cursor: pointer;
   object-fit: contain;
 }
+
+.logo > img {
+  width: 100%;
+  max-width: 50vw;
+  height: auto;
+}
