@@ -1,8 +1,9 @@
 .hamburgerContainer {
   display: flex;
   justify-content: center;
-  border: solid .5px black;
-  border-top: none;
+  border-left: solid .5px black;
+  border-right: solid .5px black;
+  border-bottom: solid .5px black;
   margin-left: 10px;
   margin-right: 10px;
 }
@@ -14,4 +15,15 @@
 .mobileLinks {
   margin-left: 10px;
   margin-right: 10px;
+  background: white;
+  position: absolute;
+  bottom: 40.5px;
+  left: 0;
+  right: 0;
+  border-top: solid .5px black;
+  border-bottom: transparent;
+}
+
+.mobileNavigation {
+  position: relative;
 }

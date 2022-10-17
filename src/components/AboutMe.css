@@ -119,5 +119,6 @@
 @media (max-width: 700px) {
   .aboutMeHeroBody{
     padding-right: 10px;
+    font-size: 1.25em;
   }
 }

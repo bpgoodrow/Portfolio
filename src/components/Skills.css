@@ -130,4 +130,38 @@
   .footerNavSkills {
     margin-bottom: 1px;
   }
+  
+.row1 {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 10px;
+  margin: 10px;
+}
+
+.row2 {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  align-items: center;
+  padding-right: 10px;
+  margin: 10px;
+}
+
+  .row1 > div > img {
+    width: 150px;
+    height: auto;
+  }
+  
+  .row2 > div > img {
+    width: 150px;
+    height: auto;
+  }
+  
+  .row1 > .css3 > img {
+    width: 92px;
+    height: auto;
+    padding-left: 10px;
+  }
 }

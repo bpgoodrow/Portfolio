@@ -6,7 +6,7 @@ import { CgClose } from 'react-icons/cg';
 
 const MobileNavigation = () => {
 
-  const [open, setOpen] =useState(false);
+  const [open, setOpen] = useState(false);
 
   const hamburgerIcon = <CgMenu className="hamburger"
             size="40px" color="black"
