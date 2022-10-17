@@ -3,7 +3,6 @@ import { NavLink } from "react-router-dom";
 import './FooterNavOption.css';
 import FooterNavOption from "./FooterNavOption";
 import MobileNavigation from "./MobileNavigation";
-import Navigation from "./Navigation";
 
 const FooterNav = () => {
   return (

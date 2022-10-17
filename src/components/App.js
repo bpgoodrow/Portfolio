@@ -1,10 +1,9 @@
-import { React, useState } from 'react';
+import  React from 'react';
 import Header from './Header';
 import './App.css';
 import './ToggleVisibility';
 import { BrowserRouter as Router } from 'react-router-dom';
 import AnimatedRoutes from './AnimatedRoutes';
-import { NavLink } from "react-router-dom";
 import BgLandingPage from './ToggleVisibility';
 
 

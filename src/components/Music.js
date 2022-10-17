@@ -2,7 +2,7 @@ import React from "react";
 import './Music.css';
 import { motion } from "framer-motion";
 import FooterNav from "./FooterNav";
-import SpotifyPlayer from "react-spotify-web-playback";
+
 
 function Social () {
   
@@ -40,8 +40,8 @@ function Social () {
           </div>
           <div className="spotifyContainer">
             <div>
-              <iframe style={{borderRadius: "12px"}} src="https://open.spotify.com/embed/track/6hAs8YvZ6OQKzUxbpTtqaS?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-              <iframe style={{borderRadius: "12px"}} src="https://open.spotify.com/embed/track/0BbNkc3fCOXFK8933NsLvT?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+              <iframe style={{borderRadius: "12px"}} src="https://open.spotify.com/embed/track/6hAs8YvZ6OQKzUxbpTtqaS?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="coyoteTalk"></iframe>
+              <iframe style={{borderRadius: "12px"}} src="https://open.spotify.com/embed/track/0BbNkc3fCOXFK8933NsLvT?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"title="pvnchr"></iframe>
               
             </div>
           </div>

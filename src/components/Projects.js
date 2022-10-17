@@ -1,7 +1,6 @@
 import React from "react";
 import './Projects.css';
 import { motion } from "framer-motion";
-import { NavLink } from "react-router-dom";
 import FooterNav from "./FooterNav";
 
 function Portfolio() {
